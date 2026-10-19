@@ -1,0 +1,13 @@
+/* 限制首頁封面圖片高度 */
+.entry-cover {
+    max-height: 260px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.entry-cover img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover; /* 自動精緻裁切 */
+}
